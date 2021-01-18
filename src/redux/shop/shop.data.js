@@ -62,43 +62,43 @@ const SHOP_DATA = {
     },
     sneakers: {
       id: 2,
-      title: 'Sneakers',
+      title: 'Books',
       routeName: 'sneakers',
       items: [
         {
           id: 10,
-          name: 'Adidas NMD',
-          imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+          name: 'Red Quran',
+          imageUrl: 'redQuran',
           price: 220
         },
         {
           id: 11,
-          name: 'Adidas Yeezy',
-          imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+          name: 'Pink Quran',
+          imageUrl: 'pinkQuran',
           price: 280
         },
         {
           id: 12,
-          name: 'Black Converse',
-          imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+          name: 'Green Quran',
+          imageUrl: 'greenQuran',
           price: 110
         },
         {
           id: 13,
-          name: 'Nike White AirForce',
-          imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+          name: 'Brown Quran',
+          imageUrl: 'brownQuran',
           price: 160
         },
         {
           id: 14,
-          name: 'Nike Red High Tops',
-          imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
+          name: 'White Quran',
+          imageUrl: 'whiteQuran',
           price: 160
         },
         {
           id: 15,
-          name: 'Nike Brown High Tops',
-          imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
+          name: 'Blue Quran',
+          imageUrl: 'blueQuran',
           price: 160
         },
         {
@@ -117,13 +117,13 @@ const SHOP_DATA = {
     },
     jackets: {
       id: 3,
-      title: 'Jackets',
+      title: 'Books',
       routeName: 'jackets',
       items: [
         {
           id: 18,
-          name: 'Black Jean Shearling',
-          imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+          name: 'Red Quran',
+          imageUrl: 'redQuran',
           price: 125
         },
         {
