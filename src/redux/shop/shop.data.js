@@ -1,250 +1,345 @@
 const SHOP_DATA = {
-    hats: {
-      id: 1,
-      title: 'Hats',
-      routeName: 'hats',
-      items: [
-        {
-          id: 1,
-          name: 'Brown Brim',
-          imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-          price: 25
-        },
-        {
-          id: 2,
-          name: 'Blue Beanie',
-          imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-          price: 18
-        },
-        {
-          id: 3,
-          name: 'Brown Cowboy',
-          imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-          price: 35
-        },
-        {
-          id: 4,
-          name: 'Grey Brim',
-          imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-          price: 25
-        },
-        {
-          id: 5,
-          name: 'Green Beanie',
-          imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-          price: 18
-        },
-        {
-          id: 6,
-          name: 'Palm Tree Cap',
-          imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-          price: 14
-        },
-        {
-          id: 7,
-          name: 'Red Beanie',
-          imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-          price: 18
-        },
-        {
-          id: 8,
-          name: 'Wolf Cap',
-          imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-          price: 14
-        },
-        {
-          id: 9,
-          name: 'Blue Snapback',
-          imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-          price: 16
-        }
-      ]
-    },
-    sneakers: {
-      id: 2,
-      title: 'Books',
-      routeName: 'sneakers',
-      items: [
-        {
-          id: 10,
-          name: 'Red Quran',
-          imageUrl: 'redQuran',
-          price: 220
-        },
-        {
-          id: 11,
-          name: 'Pink Quran',
-          imageUrl: 'pinkQuran',
-          price: 280
-        },
-        {
-          id: 12,
-          name: 'Green Quran',
-          imageUrl: 'greenQuran',
-          price: 110
-        },
-        {
-          id: 13,
-          name: 'Brown Quran',
-          imageUrl: 'brownQuran',
-          price: 160
-        },
-        {
-          id: 14,
-          name: 'White Quran',
-          imageUrl: 'whiteQuran',
-          price: 160
-        },
-        {
-          id: 15,
-          name: 'Blue Quran',
-          imageUrl: 'blueQuran',
-          price: 160
-        },
-        {
-          id: 16,
-          name: 'Air Jordan Limited',
-          imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-          price: 190
-        },
-        {
-          id: 17,
-          name: 'Timberlands',
-          imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-          price: 200
-        }
-      ]
-    },
-    jackets: {
-      id: 3,
-      title: 'Books',
-      routeName: 'jackets',
-      items: [
-        {
-          id: 18,
-          name: 'Red Quran',
-          imageUrl: 'redQuran',
-          price: 125
-        },
-        {
-          id: 19,
-          name: 'Blue Jean Jacket',
-          imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-          price: 90
-        },
-        {
-          id: 20,
-          name: 'Grey Jean Jacket',
-          imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-          price: 90
-        },
-        {
-          id: 21,
-          name: 'Brown Shearling',
-          imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-          price: 165
-        },
-        {
-          id: 22,
-          name: 'Tan Trench',
-          imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-          price: 185
-        }
-      ]
-    },
-    womens: {
-      id: 4,
-      title: 'Womens',
-      routeName: 'womens',
-      items: [
-        {
-          id: 23,
-          name: 'Blue Tanktop',
-          imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-          price: 25
-        },
-        {
-          id: 24,
-          name: 'Floral Blouse',
-          imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-          price: 20
-        },
-        {
-          id: 25,
-          name: 'Floral Dress',
-          imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-          price: 80
-        },
-        {
-          id: 26,
-          name: 'Red Dots Dress',
-          imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-          price: 80
-        },
-        {
-          id: 27,
-          name: 'Striped Sweater',
-          imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-          price: 45
-        },
-        {
-          id: 28,
-          name: 'Yellow Track Suit',
-          imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-          price: 135
-        },
-        {
-          id: 29,
-          name: 'White Blouse',
-          imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-          price: 20
-        }
-      ]
-    },
-    mens: {
-      id: 5,
-      title: 'Mens',
-      routeName: 'mens',
-      items: [
-        {
-          id: 30,
-          name: 'Camo Down Vest',
-          imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-          price: 325
-        },
-        {
-          id: 31,
-          name: 'Floral T-shirt',
-          imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-          price: 20
-        },
-        {
-          id: 32,
-          name: 'Black & White Longsleeve',
-          imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-          price: 25
-        },
-        {
-          id: 33,
-          name: 'Pink T-shirt',
-          imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-          price: 25
-        },
-        {
-          id: 34,
-          name: 'Jean Long Sleeve',
-          imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-          price: 40
-        },
-        {
-          id: 35,
-          name: 'Burgundy T-shirt',
-          imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-          price: 25
-        }
-      ]
-    }
-  };
-  
-  export default SHOP_DATA;
-  
+  hats: {
+    id: 1,
+    title: "",
+    routeName: "hats",
+    items: [
+      {
+        id: 1,
+        name: "Aloe Oil",
+        imageUrl: "/img/oils/aloe-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 2,
+        name: "Argan Oil",
+        imageUrl: "/img/oils/argan-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 3,
+        name: "Avocado Oil",
+        imageUrl: "/img/oils/avocado-oil.jpg",
+        price: 2.00,
+      },
+      {
+        id: 4,
+        name: "Carrot Oil",
+        imageUrl: "/img/oils/carrot-oil.png",
+        price: 2.00,
+      },
+      {
+        id: 5,
+        name: "Castor Oil",
+        imageUrl: "/img/oils/castor-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 6,
+        name: "Chamomile Oil",
+        imageUrl: "/img/oils/chamomile-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 7,
+        name: "Clove Oil",
+        imageUrl: "/img/oils/clove-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 8,
+        name: "Coconut Oil",
+        imageUrl: "/img/oils/coconut-oil.jpg",
+        price: 2.00,
+      },
+      {
+        id: 9,
+        name: "Cod-liver Oil",
+        imageUrl: "/img/oils/cod-liver-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 10,
+        name: "Eucalyptus Oil",
+        imageUrl: "/img/oils/eucalyptus-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 11,
+        name: "Garlic Oil",
+        imageUrl: "/img/oils/garlic-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 12,
+        name: "Jasmine Oil",
+        imageUrl: "/img/oils/jasmine-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 13,
+        name: "Laurel Leaves Oil",
+        imageUrl: "/img/oils/laurel-leaves-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 14,
+        name: "Lavender Oil",
+        imageUrl: "/img/oils/lavender-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 15,
+        name: "Linseed Oil",
+        imageUrl: "/img/oils/linseed-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 16,
+        name: "Mint Oil",
+        imageUrl: "/img/oils/mint-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 17,
+        name: "Nettle Oil",
+        imageUrl: "/img/oils/nettle-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 18,
+        name: "Onion Oil",
+        imageUrl: "/img/oils/onion-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 19,
+        name: "Oregano Oil",
+        imageUrl: "/img/oils/oregano-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 20,
+        name: "Pomegranate Oil",
+        imageUrl: "/img/oils/pomegranate-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 21,
+        name: "Propolis Oil",
+        imageUrl: "/img/oils/propolis-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 22,
+        name: "Rose Oil",
+        imageUrl: "/img/oils/rose-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 23,
+        name: "Rosemary Oil",
+        imageUrl: "/img/oils/rosemary-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 24,
+        name: "Saffron Oil",
+        imageUrl: "/img/oils/saffron-oil.webp",
+        price: 2.00,
+      },
+      {
+        id: 25,
+        name: "Vitamin E Oil",
+        imageUrl: "/img/oils/vitamin-e-oil.webp",
+        price: 2.00,
+      },
+    ],
+  },
+  sneakers: {
+    id: 2,
+    title: "Books",
+    routeName: "sneakers",
+    items: [
+      {
+        id: 26,
+        name: "Rainbow Quran",
+        imageUrl: "/img/books/rainbow-quran.jpg",
+        price: 220,
+      },
+      {
+        id: 11,
+        name: "Red Quran",
+        imageUrl: "/img/books/red-book.png",
+        price: 280,
+      },
+      {
+        id: 12,
+        name: "Green Quran",
+        imageUrl: "/img/books/green-book.png",
+        price: 110,
+      },
+      {
+        id: 13,
+        name: "Blue Quran",
+        imageUrl: "/img/books/blue-book.png",
+        price: 160,
+      },
+      {
+        id: 14,
+        name: "Pink Quran",
+        imageUrl: "/img/books/pink-book.png",
+        price: 160,
+      },
+      {
+        id: 15,
+        name: "Brown Quran",
+        imageUrl: "/img/books/brown-book.png",
+        price: 160,
+      },
+      {
+        id: 16,
+        name: "Black Quran",
+        imageUrl: "/img/books/black-book.png",
+        price: 190,
+      },
+      {
+        id: 17,
+        name: "Orange Quran",
+        imageUrl: "/img/books/orange-book.png",
+        price: 200,
+      },
+    ],
+  },
+  jackets: {
+    id: 3,
+    title: "Books",
+    routeName: "jackets",
+    items: [
+      {
+        id: 18,
+        name: "Red Quran",
+        imageUrl: "redQuran",
+        price: 125,
+      },
+      {
+        id: 19,
+        name: "Blue Jean Jacket",
+        imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
+        price: 90,
+      },
+      {
+        id: 20,
+        name: "Grey Jean Jacket",
+        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
+        price: 90,
+      },
+      {
+        id: 21,
+        name: "Brown Shearling",
+        imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
+        price: 165,
+      },
+      {
+        id: 22,
+        name: "Tan Trench",
+        imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
+        price: 185,
+      },
+    ],
+  },
+  womens: {
+    id: 4,
+    title: "Womens",
+    routeName: "womens",
+    items: [
+      {
+        id: 23,
+        name: "Gucci Women",
+        imageUrl: "gucciWomen",
+        price: 25,
+      },
+      {
+        id: 24,
+        name: "Floral Blouse",
+        imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
+        price: 20,
+      },
+      {
+        id: 25,
+        name: "Floral Dress",
+        imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
+        price: 80,
+      },
+      {
+        id: 26,
+        name: "Red Dots Dress",
+        imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
+        price: 80,
+      },
+      {
+        id: 27,
+        name: "Striped Sweater",
+        imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
+        price: 45,
+      },
+      {
+        id: 28,
+        name: "Yellow Track Suit",
+        imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
+        price: 135,
+      },
+      {
+        id: 29,
+        name: "White Blouse",
+        imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
+        price: 20,
+      },
+    ],
+  },
+  mens: {
+    id: 5,
+    title: "Mens",
+    routeName: "mens",
+    items: [
+      {
+        id: 30,
+        name: "Camo Down Vest",
+        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        price: 325,
+      },
+      {
+        id: 31,
+        name: "Floral T-shirt",
+        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+        price: 20,
+      },
+      {
+        id: 32,
+        name: "Black & White Longsleeve",
+        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
+        price: 25,
+      },
+      {
+        id: 33,
+        name: "Pink T-shirt",
+        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+        price: 25,
+      },
+      {
+        id: 34,
+        name: "Jean Long Sleeve",
+        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
+        price: 40,
+      },
+      {
+        id: 35,
+        name: "Burgundy T-shirt",
+        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        price: 25,
+      },
+    ],
+  },
+};
+
+export default SHOP_DATA;
