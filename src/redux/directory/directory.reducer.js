@@ -2,33 +2,35 @@ const INITIAL_STATE = {
     sections: [
       {
         title: 'care products',
-        // imageUrl: 'https://img.freepik.com/free-photo/white-beauty-cream-with-liquid-oil-drop-cosmetic-white-background-include-clipping-path_36845-263.jpg?size=626&ext=jpg&ga=GA1.2.1431962152.1609286400',
-        imageUrl: 'careProducts',
+        imageUrl: '/img/menu/care-products.jpg',
         id: 1,
-        linkUrl: 'shop/hats'
+        linkUrl: 'shop/hats',
+        firstItem: 'Oils',
+        secondItem: 'Skin Products',
+        thirdItem: 'Hair Products'
       },
       {
-        title: 'scarfs',
-        imageUrl: 'scarfs',
+        title: 'clothing',
+        imageUrl: '/img/menu/clothing.jpg',
         id: 2,
         linkUrl: 'shop/jackets'
       },
       {
         title: 'books',
-        imageUrl: 'books',
+        imageUrl: '/img/menu/books.jpg',
          id: 3,
         linkUrl: 'shop/sneakers'
       },
       {
         title: 'women perfumes',
-        imageUrl: 'womenPerfumes',
+        imageUrl: '/img/menu/men-perfumes.jpg',
         size: 'large',
         id: 4,
         linkUrl: 'shop/womens'
       },
       {
         title: 'men perfumes',
-        imageUrl: 'menPerfumes',
+        imageUrl: '/img/menu/women-perfumes.jpg',
         size: 'large',
         id: 5,
         linkUrl: 'shop/mens'
